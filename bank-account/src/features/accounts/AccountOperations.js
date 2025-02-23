@@ -28,7 +28,7 @@ function AccountOperations() {
   function handleWithdrawal() {
     if (!withdrawalAmount) return;
     dispatch(withdraw(withdrawalAmount));
-    setWithdrawalAmount("");
+    setWithdrawalAmount("USD");
   }
 
   function handleRequestLoan() {
